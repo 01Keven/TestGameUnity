@@ -5,13 +5,30 @@ public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private float openAngle = 90f; // Ângulo de abertura da porta
     [SerializeField] private float openDuration = 2f; // Duração da animação de abertura da porta
+
     private bool isOpen = false;
     private bool isMoving = false;
+
+    private bool isLocked = true; // Indica se a porta está trancada
+
+
+
+    public void Unlock()
+    {
+        isLocked = false; // Destranca a porta
+        Debug.Log("Porta destrancada!");
+    }
 
     public void Interact()
     {
         // Lógica para abrir a porta
         Debug.Log("Porta interagida!");
+        
+        if (isLocked)
+        {
+            Debug.Log("A porta está trancada! Você precisa de uma chave para abri-la.");
+            return; // Se a porta estiver trancada, não faça nada
+        }
 
         if (isMoving)
         {
@@ -40,6 +57,7 @@ public class Door : MonoBehaviour, IInteractable
         isOpen = false;
         StartCoroutine(RotateDoor(0f));
     }
+
 
     private IEnumerator RotateDoor(float targetAngle)
     {

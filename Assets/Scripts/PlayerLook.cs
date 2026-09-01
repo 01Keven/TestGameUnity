@@ -32,27 +32,41 @@ public class PlayerLook : MonoBehaviour
 
     private void Update()
     {
-        Vector2 lookInput = inputActions.Player.Look.ReadValue<Vector2>();
+        if (playerBody == null)
+        {
+            Debug.LogError("PlayerBody não foi atribuído.");
+            return;
+        }
+
+        // Vector2 lookInput =
+        //     inputActions.Player.Look.ReadValue<Vector2>();
+
+        Vector2 lookInput = UnityEngine.InputSystem.Mouse.current.delta.ReadValue();
 
         float mouseX = lookInput.x * mouseSensitivity;
         float mouseY = lookInput.y * mouseSensitivity;
+        Debug.Log(lookInput);
 
         // Rotação vertical da câmera
         xRotation -= mouseY;
 
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        // Aplicar rotação vertical à câmera
-        // Quaternion.Euler cria uma rotação a partir de ângulos de Euler (em graus) para cada eixo (x, y, z). Aqui, estamos definindo a rotação local da câmera apenas no eixo x (pitch), mantendo os eixos y (yaw) e z (roll) em 0. Isso significa que a câmera só vai olhar para cima e para baixo, sem girar para os lados ou inclinar.
-        transform.localRotation = Quaternion.Euler(
+        xRotation = Mathf.Clamp(
             xRotation,
-            0f,
-            0f
+            -90f,
+            90f
         );
 
-        // Rotação horizontal do corpo
+        transform.localRotation =
+            Quaternion.Euler(
+                xRotation,
+                transform.localEulerAngles.y,
+                0f
+            );
+
+        // Rotação horizontal do Player
         playerBody.Rotate(
-            Vector3.up * mouseX
+            Vector3.up * mouseX,
+            Space.Self
         );
     }
 }
