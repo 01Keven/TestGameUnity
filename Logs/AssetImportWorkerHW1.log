@@ -2153,3 +2153,29 @@ Importing 'GUID: ae30ea10ce9953842b3ae8ecc9945dc3 - Path: Assets/Scripts/PlayerL
 Imported 'GUID: ae30ea10ce9953842b3ae8ecc9945dc3' -> (Import Result ID: '939de6c913db1194dfd576f1decf7243') in 0.912 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e25b7a0a40a9b86b0c193daf61fe4dea DependenciesID=316265d5c3bbe6a485e224904e96653f StaticDependenciesID=8017fa778c5461795a8118e146c57352 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 24.51 ms, found 5 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (13.7 MB). Loaded Objects now: 11631.
+Memory consumption went from 0.61 GB to 0.60 GB.
+Total: 1343.116100 ms (FindLiveObjects: 78.469900 ms CreateObjectMapping: 46.174000 ms MarkObjects: 1212.257100 ms  DeleteObjects: 6.192400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 4.09 ms, found 5 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10482 unused Assets / (24.6 MB). Loaded Objects now: 11631.
+Memory consumption went from 0.62 GB to 0.60 GB.
+Total: 47.322900 ms (FindLiveObjects: 1.751500 ms CreateObjectMapping: 5.185200 ms MarkObjects: 24.824600 ms  DeleteObjects: 15.559300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T00:15:18.4681027Z
+  Time since last request: 1207.4937895999999 seconds.
+  importAddress: GUID: 8af4199a599d0514cba13b1880d1826b - Path: Assets/PlayerInputActions.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8af4199a599d0514cba13b1880d1826b - Path: Assets/PlayerInputActions.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
