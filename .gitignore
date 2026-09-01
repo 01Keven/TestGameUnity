@@ -1,0 +1,21 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Build]/
+/[Builds]/
+/[Logs]/
+/[UserSettings]/
+/[MemoryCaptures]/
+
+# Arquivos de solução do Visual Studio/Rider
+/*.sln
+/*.csproj
+/*.unityproj
+/*.suo
+/*.user
+/*.userosscache
+/*.sln.docstates
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
