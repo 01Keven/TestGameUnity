@@ -40,7 +40,7 @@ public class PlayerLook : MonoBehaviour
         // Rotação vertical da câmera
         xRotation -= mouseY;
 
-        xRotation = Mathf.Clamp(xRotation, -70f, 70f);
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         // Aplicar rotação vertical à câmera
         // Quaternion.Euler cria uma rotação a partir de ângulos de Euler (em graus) para cada eixo (x, y, z). Aqui, estamos definindo a rotação local da câmera apenas no eixo x (pitch), mantendo os eixos y (yaw) e z (roll) em 0. Isso significa que a câmera só vai olhar para cima e para baixo, sem girar para os lados ou inclinar.
