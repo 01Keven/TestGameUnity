@@ -80010,3 +80010,993 @@ Memory consumption went from 1.09 GB to 1.09 GB.
 Total: 48.865300 ms (FindLiveObjects: 1.081200 ms CreateObjectMapping: 0.939000 ms MarkObjects: 46.717400 ms  DeleteObjects: 0.125900 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.3079ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Keven/My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 4.0346ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 24.8121ms
+ExitCode: 0 Duration: 1s435ms
+[1209/1583  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1579/1583  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1580/1583  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1581/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1582/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (1.29 seconds), 5 items updated, 1583 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[INFO ] [relay] log Domain reload signal received from client editor-14416-87pvpl
+Total cache size 267490908
+Total cache size after purge 267490908, took 00:00:01.9981078
+[INFO ] [relay] log Client disconnected - blocking and caching for recovery
+[WARN ] [relay] connection.lost clientId=null
+[WARN ] [relay] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[INFO ] [relay] log Auto-shutdown timer started due to client disconnection
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 12.53 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 5.04 ms, found 5 plugins.
+Start HTTP server: port:7802
+Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automated
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs:88)
+Unity.Pipeline.BasePipelineServer:Start (int) (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Runtime/Common/BasePipelineServer.cs:237)
+Unity.Pipeline.Editor.PipelineServerStartup:StartServer () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:164)
+Unity.Pipeline.Editor.PipelineServerStartup:.cctor () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:44)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs Line: 88)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.936 seconds
+Domain Reload Profiling: 10500ms
+	BeginReloadAssembly (2961ms)
+		DisableScriptedObjects (508ms)
+		CreateAndSetChildDomain (1228ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (217ms)
+	LoadAllAssembliesAndSetupDomain (1347ms)
+		LoadAssemblies (549ms)
+		AnalyzeDomain (770ms)
+			TypeCache.Refresh (73ms)
+			BuildScriptInfoCaches (627ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (5937ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (1087ms)
+			ProcessInitializeOnLoadAttributes (1666ms)
+			ProcessInitializeOnLoadMethodAttributes (663ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (1321ms)
+Refreshing native plugins compatible for Editor in 6.00 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=5603465068dae874faaf30a796c41943): Total: 15.022 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6669 ms
+		Asset DB Callback time: managed=469 ms, native=14 ms
+		Scripting: domain reloads=1, domain reload time=4933 ms, compile time=2933 ms, other=0 ms
+		Project Asset Count: scripts=2197, non-scripts=5339
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 5.069ms
+	ApplyChangesToAssetFolders: 1.566ms
+	Scan: 112.209ms
+	Collect global state as custom dependencies: 9.814ms
+	OnSourceAssetsModified: 27.735ms
+	CategorizeScriptCompilationAssets: 0.727ms
+	ProcessAssetsWithTransientArtifactChanges: 19.677ms
+	CategorizeAssets: 179.673ms
+	CompileScripts: 2932.810ms
+	ImportOutOfDateAssets: 6091.404ms (5997.877ms without children)
+		CollectScriptTypesHashes: 3.385ms
+		ReloadNativeAssets: 1.353ms
+		UnloadImportedAssets: 0.296ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.258ms
+		ImportSchedulerStart: 89.526ms
+	PostProcessAllAssets: 446.313ms
+		XRBuildSystem.XRAssetImported 1.334ms
+		PostProcessCallbackCreateDeferredMaterials 1.277ms
+		MonoPostProcessAllAssets: 443.036ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 41.889ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 20.213ms
+			SyncVS.PostprocessSyncProject 14.251ms
+			AssetPostprocessor.OnPostprocessAllAssets 13.800ms
+			AssetChangedListener.OnPostprocessAllAssets 9.546ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.414ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.770ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.312ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.035ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.794ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.360ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.309ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.473ms
+			AssetChangeDetector.OnPostprocessAllAssets 1.209ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.092ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.071ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.897ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.723ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.721ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.606ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.597ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.586ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.576ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.539ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.514ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.483ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.453ms
+			PostProcessor.OnPostprocessAllAssets 0.446ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.403ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.359ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.357ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.348ms
+			AssetEvents.OnPostprocessAllAssets 0.334ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.270ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.260ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.233ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.193ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.183ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.180ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.164ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.143ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.077ms
+	PostAssetChangesProfiler: 8.617ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.448ms
+	PersistCurrentRevisions: 0.266ms
+	GenerateScriptTypeHashes: 4.759ms
+	GenerateScriptTypeSerializationHashes: 7.663ms
+	Untracked: 5167.490ms
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[INFO ] [relay] log Unity client connected with ID: editor-14416-yw18do (relay 1.0.12-build.97)
+[INFO ] [relay] connection.established clientId=editor-14416-yw18do port=9001
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[INFO ] [relay] log Domain reload signal received from client editor-14416-yw18do
+[INFO ] [relay] log Client disconnected - blocking and caching for recovery
+[WARN ] [relay] connection.lost clientId=null
+[WARN ] [relay] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[INFO ] [relay] log Auto-shutdown timer started due to client disconnection
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 14.08 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7802
+Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automated
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs:88)
+Unity.Pipeline.BasePipelineServer:Start (int) (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Runtime/Common/BasePipelineServer.cs:237)
+Unity.Pipeline.Editor.PipelineServerStartup:StartServer () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:164)
+Unity.Pipeline.Editor.PipelineServerStartup:.cctor () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:44)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs Line: 88)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.657 seconds
+Domain Reload Profiling: 8655ms
+	BeginReloadAssembly (2091ms)
+		DisableScriptedObjects (253ms)
+		CreateAndSetChildDomain (1188ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (176ms)
+	LoadAllAssembliesAndSetupDomain (686ms)
+		LoadAssemblies (589ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (17ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (5659ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (2010ms)
+			ProcessInitializeOnLoadMethodAttributes (739ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (1383ms)
+
+Asset Pipeline Refresh (id=1fbf3a10f34a81849bd17402eaedc572): Total: 9.264 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6022 ms
+		Asset DB Callback time: managed=76 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=3161 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=2197, non-scripts=5339
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 4.454ms
+	ApplyChangesToAssetFolders: 0.585ms
+	Collect global state as custom dependencies: 7.796ms
+	ProcessAssetsWithTransientArtifactChanges: 0.446ms
+	CategorizeAssets: 136.176ms
+	CompileScripts: 1.893ms
+	ImportOutOfDateAssets: 5784.745ms (5701.319ms without children)
+		CollectScriptTypesHashes: 1.370ms
+		ReloadNativeAssets: 1.848ms
+		UnloadImportedAssets: 0.323ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.847ms
+		ImportSchedulerStart: 79.328ms
+	PostProcessAllAssets: 76.509ms
+		MonoPostProcessAllAssets: 76.502ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 41.889ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 26.472ms
+			SyncVS.PostprocessSyncProject 15.733ms
+			AssetPostprocessor.OnPostprocessAllAssets 13.800ms
+			AssetChangedListener.OnPostprocessAllAssets 9.546ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.414ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.788ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.770ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.199ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.883ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.360ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.309ms
+			AssetChangeDetector.OnPostprocessAllAssets 2.252ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.570ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.092ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.071ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.723ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.721ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.683ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.657ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.599ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.586ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.576ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.548ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.514ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.483ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.453ms
+			PostProcessor.OnPostprocessAllAssets 0.446ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.403ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.365ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.359ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.348ms
+			AssetEvents.OnPostprocessAllAssets 0.334ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.327ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.260ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.231ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.193ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.183ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.180ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.164ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.143ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.077ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.484ms
+	PersistCurrentRevisions: 0.380ms
+	GenerateScriptTypeHashes: 5.165ms
+	GenerateScriptTypeSerializationHashes: 8.288ms
+	Untracked: 3240.107ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            13.319 ms
+	Integration:            2097.459 ms
+	Integration of assets:  0.015 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   2110.798 ms
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[INFO ] [relay] log Unity client connected with ID: editor-14416-hnqubb (relay 1.0.12-build.97)
+[INFO ] [relay] connection.established clientId=editor-14416-hnqubb port=9001
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact () (at Assets/Scripts/Door.cs:9)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:61)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/Door.cs Line: 9)
+
+Interagiu com: Door
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:62)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:38)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 62)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.158 ms
+	Integration:            450.881 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   453.050 ms
+Unloading 74 unused Assets / (373.7 KB). Loaded Objects now: 13138.
+Memory consumption went from 1.08 GB to 1.08 GB.
+Total: 55.892000 ms (FindLiveObjects: 0.972900 ms CreateObjectMapping: 0.769100 ms MarkObjects: 52.991600 ms  DeleteObjects: 1.152000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=66b05e240d375ae45907423b8ae8fda8): Total: 0.243 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)

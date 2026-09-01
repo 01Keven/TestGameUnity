@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
@@ -13,11 +12,8 @@ public class PlayerInteraction : MonoBehaviour
     {
         inputActions = new PlayerInputActions(); // Inicializa a classe de ações de entrada do jogador
         playerCamera = GetComponentInChildren<Camera>(); // Obtém a referência para a câmera do jogador, assumindo que ela é um filho do objeto do jogador
-
         
     }
-
-
 
     private void OnEnable()
     {
@@ -56,7 +52,9 @@ public class PlayerInteraction : MonoBehaviour
             interactionDistance // Distância máxima para interação
         ))
         {
-            if (hit.collider.TryGetComponent(out IInteractable interactable))
+            IInteractable interactable = hit.collider.GetComponentInParent<IInteractable>(); // Tenta obter o componente IInteractable do objeto atingido pelo raio ou de seus pais na hierarquia. Isso permite que o jogador interaja com objetos que implementam a interface IInteractable.
+
+            if (interactable != null)
             {
                 interactable.Interact();
                 Debug.Log("Interagiu com: " + hit.collider.name);
