@@ -19,15 +19,25 @@ public class Door : MonoBehaviour, IInteractable
         Debug.Log("Porta destrancada!");
     }
 
-    public void Interact()
+    public void Interact(GameObject interactor)
     {
         // Lógica para abrir a porta
         Debug.Log("Porta interagida!");
         
+
+
         if (isLocked)
         {
+            PlayerInventory inventory = interactor.GetComponent<PlayerInventory>();
+            
+            if (inventory.hasKey)
+            {
+                Unlock(); // Destranca a porta se o jogador tiver a chave
+            }
+
             Debug.Log("A porta está trancada! Você precisa de uma chave para abri-la.");
             return; // Se a porta estiver trancada, não faça nada
+            
         }
 
         if (isMoving)

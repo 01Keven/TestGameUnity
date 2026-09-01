@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
@@ -74,7 +75,7 @@ public class PlayerInteraction : MonoBehaviour
         
         if (currentInteractable != null)
         {
-            currentInteractable.Interact();
+            currentInteractable.Interact(this.gameObject);
             Debug.Log("Interagiu com: " + currentInteractable.ToString());
         }
     }

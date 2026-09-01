@@ -2749,3 +2749,251 @@ Received Import Request.
   Time since last request: 0.0008079 seconds.
   importAddress: GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter
 Importing 'GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc3def193b270c649b041063a70a1a1f' -> (Import Result ID: 'a1fdc1bc69e1710af38c68508f5642b4') in 6.634 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c9111f3f4acd172feca70d27b0f4d03 DependenciesID=e95d4603904372aaeecd8769a65e5c01 StaticDependenciesID=b9ca1baeafd8156f2fad8a7197e2e38b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:32.1491964Z
+  Time since last request: 0.0003428 seconds.
+  importAddress: GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a2407126e3372f64cacb75ed466a5621' -> (Import Result ID: 'ba862a59c968174feaab9f49c2a0c314') in 5.475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ccc5bf330064a088f61e94f2ff023ac DependenciesID=559abcd5b7e24be8a42c01f9b5b4bf6a StaticDependenciesID=8a6fd32d537062866c8a5287ab60a160 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:37.6438776Z
+  Time since last request: 0.0008679 seconds.
+  importAddress: GUID: 78a08787ca30045abb69f6f7dd878e09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat - Importer: PreviewImporter
+Importing 'GUID: 78a08787ca30045abb69f6f7dd878e09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 78a08787ca30045abb69f6f7dd878e09' -> (Import Result ID: 'b3621def3c1463af7ba7ae43a78a51c1') in 0.285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3ffa84adac0ac29cf6a97c9ed3e97cc DependenciesID=89d1c927e9e89980b0998906ff869d5f StaticDependenciesID=fa747e4db9d9317228f7c9691d950551 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:37.9501955Z
+  Time since last request: 0.0012513 seconds.
+  importAddress: GUID: df41eefe8c13d444ca890dddbbc61f8d - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Fullscreen Basic URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: df41eefe8c13d444ca890dddbbc61f8d - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Fullscreen Basic URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: df41eefe8c13d444ca890dddbbc61f8d' -> (Import Result ID: 'd4a9df170e2e7dfe8d4b4d4c428d81d9') in 0.317 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=983d37f80b044adc6836eb27e10d2795 DependenciesID=7940816a0f34e04570b6f6fda8208be3 StaticDependenciesID=a887e5f458979472efb3ed7c3d1ab9d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:38.2923951Z
+  Time since last request: 0.0008723 seconds.
+  importAddress: GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39144937a5efe954dac51acbbe54157e' -> (Import Result ID: '6f488165fb298143c4b848c32f76035d') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcb5eb1c635765ab92637f9f0fba8903 DependenciesID=4009b2ed5e34e68a9c2207bb43c4d9f1 StaticDependenciesID=0c4b67778e79e9b5ce5cb919be80139e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:38.3529531Z
+  Time since last request: 0.0007389 seconds.
+  importAddress: GUID: d93c1bc57fdf1ac4dad1bf04fac05464 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: d93c1bc57fdf1ac4dad1bf04fac05464 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d93c1bc57fdf1ac4dad1bf04fac05464' -> (Import Result ID: '78c2a8bb526a19e6f84427aed634ef32') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c6de804a201ced002e7bf79857df2ee DependenciesID=5089f1449beef4ae52c0e4e87cc0a434 StaticDependenciesID=82dd9f9dc5ce48138dca99cab124ae63 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:38.4030907Z
+  Time since last request: 0.0012437 seconds.
+  importAddress: GUID: bde135b320597544b9ac325092409f8b - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/0_2D Sprite Lit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: bde135b320597544b9ac325092409f8b - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/0_2D Sprite Lit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bde135b320597544b9ac325092409f8b' -> (Import Result ID: 'b478d78fcefabeffa835bedb8e7c4a1e') in 0.288 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e74c8b99f9dc1c0b4b1ac8d37babf31 DependenciesID=8052a2cfc831033e5ce17f0c6158d477 StaticDependenciesID=0a2935d6f1dc39f3f5b41c00b23457a1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:38.709493Z
+  Time since last request: 0.001253 seconds.
+  importAddress: GUID: 0738648e2f2f84b489a2f0076b69e30a - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKBasicTemplate.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 0738648e2f2f84b489a2f0076b69e30a - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKBasicTemplate.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0738648e2f2f84b489a2f0076b69e30a' -> (Import Result ID: '2952428531d120f1f0838696fce0a9d7') in 0.746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=332c778b15b9da534be4e31b91b3fd6b DependenciesID=6e8ca4cf94ea69b88449b7d249cd833f StaticDependenciesID=03d2dc8c4bc89e9ed1cdb8b5d87c48d4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:39.4756338Z
+  Time since last request: 0.0011348 seconds.
+  importAddress: GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5e63515167650a541b309ba3bfd4db3d' -> (Import Result ID: 'f21d8aa72735c7c9c8ae16befba847fe') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e745d8cab27588fefc3c0ee7e742f76d DependenciesID=dc27934f3a2944a13f50f3b70ae2c317 StaticDependenciesID=e7b238c09fb1c6c56ce7d01048b94d99 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:39.5455248Z
+  Time since last request: 0.0018254 seconds.
+  importAddress: GUID: 3750c318f40cab44a97d3a81beaefeb3 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf - Importer: PreviewImporter
+Importing 'GUID: 3750c318f40cab44a97d3a81beaefeb3 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3750c318f40cab44a97d3a81beaefeb3' -> (Import Result ID: '06f409041d687e1f6f263eedc0a111a7') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8232347dee368e154f2780316ac4d4f DependenciesID=102d42bec29e7f6ab24edd0ecc1e4c5d StaticDependenciesID=dc989497e9d17c61f9e48207d7693c2b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:39.6011214Z
+  Time since last request: 0.0014915 seconds.
+  importAddress: GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter
+Importing 'GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1062c701058745940ae5dca6219c64c8' -> (Import Result ID: '505a087006d6e93197d0c73bd66fc93a') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1515b54376c65ee4a1762e5d28481488 DependenciesID=06fee1683de6fcfaf41afbdec7a22a03 StaticDependenciesID=c93b1b4c7cec5656f4e5dae47047c866 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:39.6573514Z
+  Time since last request: 0.0009381 seconds.
+  importAddress: GUID: 31d0dcc6f2dd4e4408d18036a2c93862 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat - Importer: PreviewImporter
+Importing 'GUID: 31d0dcc6f2dd4e4408d18036a2c93862 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31d0dcc6f2dd4e4408d18036a2c93862' -> (Import Result ID: '194b0d912326214a5cc6f1f5747646ee') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38cd54e93b0939812c1f884cd4c95836 DependenciesID=7d683b64fef5383359f366c89c5e757a StaticDependenciesID=f2f48452332c291c4b00221922b503e3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:39.6963215Z
+  Time since last request: 0.0003757 seconds.
+  importAddress: GUID: 8a239b3da89050c4e89ac06b168fc684 - Path: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/FallbackMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 8a239b3da89050c4e89ac06b168fc684 - Path: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/FallbackMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8a239b3da89050c4e89ac06b168fc684' -> (Import Result ID: '0875dbe27c8ec3a0aa62ca1c3d3b2982') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5480ae8dd386aea7ec8140c5afc4399 DependenciesID=f4950f905c5093375068728ebc5e69b3 StaticDependenciesID=0f9b2cdc7c4f895015e83c05e97d8243 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:39.7445829Z
+  Time since last request: 0.0024124 seconds.
+  importAddress: GUID: af66091e0eca0c04a9c3584ae867418a - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Particle Unlit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: af66091e0eca0c04a9c3584ae867418a - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Particle Unlit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: af66091e0eca0c04a9c3584ae867418a' -> (Import Result ID: 'b3453342d6b7b81ed208372aae87ce37') in 0.871 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=21de08ba086b2ccefba8c71c0bd087a0 DependenciesID=3b875ac7707da915088a08c48d1aa0a4 StaticDependenciesID=588ac3abd8df475f61db19ea3701d98a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-01T20:59:40.6449423Z
+  Time since last request: 0.0005798 seconds.
+  importAddress: GUID: 0e9d5a909a1f7e84882a534d0d11e49f - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 0e9d5a909a1f7e84882a534d0d11e49f - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0e9d5a909a1f7e84882a534d0d11e49f' -> (Import Result ID: '5940cbc016b6608bcbaab8e70a3c42fd') in 6.207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4979efa7f21088c1723980257e5fa469 DependenciesID=d65acdf24639360fa383b1cb4a7d5a66 StaticDependenciesID=12c62a9a00f20f75e2ae07562fa8da03 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 5.02 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.75 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.192 seconds
+Domain Reload Profiling: 15152ms
+	BeginReloadAssembly (5864ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (826ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (3085ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (437ms)
+	LoadAllAssembliesAndSetupDomain (5587ms)
+		LoadAssemblies (4308ms)
+		AnalyzeDomain (1699ms)
+			TypeCache.Refresh (307ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (1326ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3193ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (238ms)
+			ProcessInitializeOnLoadAttributes (1472ms)
+			ProcessInitializeOnLoadMethodAttributes (817ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 5.17 ms, found 5 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10506 unused Assets / (24.2 MB). Loaded Objects now: 11748.
+Memory consumption went from 0.58 GB to 0.56 GB.
+Total: 42.536500 ms (FindLiveObjects: 1.881700 ms CreateObjectMapping: 2.390600 ms MarkObjects: 26.113800 ms  DeleteObjects: 12.145800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 5.35 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 6.38 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScriptableSingleton already exists. Did you query the singleton in a constructor?
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.ScriptableSingleton`1<Unity.AI.Generators.UI.Utilities.DragAndDropCache>:.ctor ()
+Unity.AI.Generators.UI.Utilities.DragAndDropCache:.ctor () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Generators.UI/Utilities/DragAndDropCache.cs:13)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
+UnityEditor.ScriptableSingleton`1<Unity.AI.Generators.UI.Utilities.DragAndDropCache>:Save (bool)
+Unity.AI.Generators.UI.Utilities.DragAndDropCache:EnsureSaved () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Generators.UI/Utilities/DragAndDropCache.cs:17)
+Unity.AI.Generators.UI.Utilities.ExternalFileDragDrop:Init () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Generators.UI/Utilities/ExternalFileDragDrop.cs:53)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Generators.UI/Utilities/DragAndDropCache.cs Line: 13)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.325 seconds
+Domain Reload Profiling: 5195ms
+	BeginReloadAssembly (544ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (194ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (973ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3327ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (1523ms)
+			ProcessInitializeOnLoadMethodAttributes (1032ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (68ms)
+Refreshing native plugins compatible for Editor in 7.04 ms, found 5 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10506 unused Assets / (24.6 MB). Loaded Objects now: 11764.
+Memory consumption went from 0.59 GB to 0.57 GB.
+Total: 51.356700 ms (FindLiveObjects: 2.939000 ms CreateObjectMapping: 3.618000 ms MarkObjects: 27.988500 ms  DeleteObjects: 16.807900 ms)
+
+Prepare: number of updated asset objects reloaded= 0

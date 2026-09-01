@@ -6,16 +6,19 @@ public class Key : MonoBehaviour, IInteractable
     [SerializeField] private Door doorToUnlock; // Referência para a porta que esta chave destranca
 
 
-    public void Interact()
+    public void Interact(GameObject interactor)
     {
+        PlayerInventory inventory = interactor.GetComponent<PlayerInventory>();
         // Lógica para pegar a chave
         Debug.Log($"Chave {keyName} coletada!");
         // Aqui você pode adicionar lógica para adicionar a chave ao inventário do jogador, etc.
-        if (doorToUnlock != null)
+        if (inventory != null)
         {
-            doorToUnlock.Unlock(); // Destranca a porta associada a esta chave
+            inventory.hasKey = true; // Indica que o jogador possui a chave
+            Destroy(gameObject); // Remove a chave do mundo após ser coletada
         }
         Destroy(gameObject); // Remove a chave do mundo após ser coletada
+        
     }
 
     
