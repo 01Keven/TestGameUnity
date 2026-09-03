@@ -15,6 +15,7 @@ public class Key : MonoBehaviour, IInteractable
         if (inventory != null)
         {
             inventory.hasKey = true; // Indica que o jogador possui a chave
+            UIManager.Instance.UpdateKeyDisplay(true); // Atualiza a exibição da chave
             Destroy(gameObject); // Remove a chave do mundo após ser coletada
         }
         Destroy(gameObject); // Remove a chave do mundo após ser coletada

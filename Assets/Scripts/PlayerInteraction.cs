@@ -75,7 +75,7 @@ public class PlayerInteraction : MonoBehaviour
         
         if (currentInteractable != null)
         {
-            currentInteractable.Interact(this.gameObject);
+            currentInteractable.Interact(this.gameObject); // Chama o método de interação do objeto interagível, passando o jogador como parâmetro
             Debug.Log("Interagiu com: " + currentInteractable.ToString());
         }
     }

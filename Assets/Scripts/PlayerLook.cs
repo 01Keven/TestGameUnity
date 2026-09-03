@@ -45,7 +45,7 @@ public class PlayerLook : MonoBehaviour
 
         float mouseX = lookInput.x * mouseSensitivity;
         float mouseY = lookInput.y * mouseSensitivity;
-        Debug.Log(lookInput);
+        // Debug.Log(lookInput);
 
         // Rotação vertical da câmera
         xRotation -= mouseY;
