@@ -32,10 +32,11 @@ public class Door : MonoBehaviour, IInteractable
             
             if (inventory.hasKey)
             {
-                Unlock(); // Destranca a porta se o jogador tiver a chave
+                Unlock();
+                UIManager.Instance.ShowMessage("Porta destrancada!", 2f);
             }
 
-            Debug.Log("A porta está trancada! Você precisa de uma chave para abri-la.");
+            UIManager.Instance.ShowMessage("Você precisa de uma chave para abri-la.", 2f);
             return; // Se a porta estiver trancada, não faça nada
             
         }
