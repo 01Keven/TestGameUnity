@@ -16,7 +16,6 @@ public class Door : MonoBehaviour, IInteractable
     public void Unlock()
     {
         isLocked = false; // Destranca a porta
-        Debug.Log("Porta destrancada!");
     }
 
     public void Interact(GameObject interactor)
@@ -33,7 +32,6 @@ public class Door : MonoBehaviour, IInteractable
             if (inventory.hasKey)
             {
                 Unlock();
-                UIManager.Instance.ShowMessage("Porta destrancada!", 2f);
             }
 
             UIManager.Instance.ShowMessage("Você precisa de uma chave para abri-la.", 2f);
@@ -43,6 +41,7 @@ public class Door : MonoBehaviour, IInteractable
 
         if (isMoving)
         {
+            
             return; // Se a porta já estiver se movendo, não faça nada
         }
 
@@ -60,6 +59,7 @@ public class Door : MonoBehaviour, IInteractable
     private void Open()
     {
         isOpen = true;
+        UIManager.Instance.ShowMessage("Porta Destrancada!", 2f);
         StartCoroutine(RotateDoor(openAngle));
     }
 
