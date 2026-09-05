@@ -963,3 +963,1366 @@ Starting new worker id: 1 with log in C:/Users/Keven/My project/Logs/AssetImport
 [Worker0] Imported GUID: a890754fd8c601543bfb965628eb88b2 - Path: Assets/Scripts/Door.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b025e9600e376c4378c6c68258c5bf9b') in 0.2348995 seconds
 [Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Main.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0204f545b19b24b85d6ef1f098b7f8e8') in 0.046329 seconds
 [Worker0] Imported GUID: 2197cfdf04df3ea418a2a99dcb9c5df6 - Path: Assets/Scripts/UIManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4a26593f97d3fd03b1820e3e6c77e374') in 0.0307891 seconds
+Request Asset Garbage Collect because used heap size increased from 0.58 GB to 1.03 GB, exceeding the threshold of 256.0 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.0 KB). Loaded Objects now: 12772.
+Memory consumption went from 1.03 GB to 1.03 GB.
+Total: 55.779200 ms (FindLiveObjects: 1.198000 ms CreateObjectMapping: 0.864800 ms MarkObjects: 52.381000 ms  DeleteObjects: 1.331900 ms)
+
+Worker ready: AssetImportWorkerHW1 1
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=4409665a6063fdc4686e50b2453ac8c1): Total: 0.038 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=8678b06a9f3a820499fa4f5d35e6b872): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=0a11e5ef6b7ed8b41ad57df892fdaca7): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=6b8c0010f55533b4b9cfaf0fae65855d): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=1f8da141f78f5944aa7e82c29273eee2): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=932a8d7d86eda2d4292a98d407afd153): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Importing 'GUID: 391c49d2bb7c1f44eafb723999445d74 - Path: Assets/Scenes/Main' with importer (DefaultImporter)
+Imported 'GUID: 391c49d2bb7c1f44eafb723999445d74' -> (Import Result ID: '30a1d792920c9d64bcf36e3070de479c') in 0.021 seconds [static dependencies only]. Details - ImportResultOutputID=6cde574491c7432bb1bbdf8bb3b18228 DependenciesID=a6520475c8586ddbb5a83f4a27165641 StaticDependenciesID=7b6b8c1b5f9ce55dd9e887e87d023f48 
+Importing 'GUID: 77605f9d30de9204981610f47fd9ffb4 - Path: Assets/Scenes/Main/NavMesh-NavMesh Surface.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 77605f9d30de9204981610f47fd9ffb4' -> (Import Result ID: 'b2b8329bb55c75f8c2aeb73bf0cbac7f') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=160f02326bc776be5db39ef2d97aeea9 DependenciesID=2709f642486f68ed53ca0a7e4fd96d90 StaticDependenciesID=a7f6da14ca49ac05f73ba6ae0c76d816 
+Refreshing native plugins compatible for Editor in 5.02 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=0776b0df6d4871144a0d0c3d1cb43c1b): Total: 0.472 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=231 ms
+		Asset DB Callback time: managed=202 ms, native=34 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2204, non-scripts=5376
+		Asset File Changes: new=2, changed=2, moved=0, deleted=0
+		Scan Filter Count: 4
+	ApplyChangesToAssetFolders: 0.276ms
+	Scan: 28.766ms
+	Collect global state as custom dependencies: 1.043ms
+	OnSourceAssetsModified: 2.326ms
+	ProcessAssetsWithTransientArtifactChanges: 2.062ms
+	CategorizeAssets: 37.456ms
+	ImportOutOfDateAssets: 139.952ms (18.333ms without children)
+		ImportManagerImport: 38.287ms (3.675ms without children)
+			UpdateCategorizedAssets: 0.069ms
+		ReloadNativeAssets: 0.059ms
+		UnloadImportedAssets: 0.224ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.618ms
+		ImportSchedulerStart: 81.408ms
+	PostProcessAllAssets: 213.791ms
+		XRBuildSystem.XRAssetImported 21.726ms
+		PostProcessCallbackCreateDeferredMaterials 0.348ms
+		ShaderAssetModifiedCallback 0.287ms
+		VersionControlSettings.HiddenFilePostprocess 0.116ms
+		MonoPostProcessAllAssets: 188.602ms
+			AssetPostprocessor.OnPostprocessAllAssets 112.473ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 12.462ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 5.646ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.963ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 4.205ms
+			SyncVS.PostprocessSyncProject 3.876ms
+			PostProcessor.OnPostprocessAllAssets 3.876ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.348ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.710ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.681ms
+			ModelAssetProcessor.OnPostprocessAllAssets 1.616ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 1.469ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 1.338ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.198ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.156ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 1.062ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.019ms
+			AssetChangedListener.OnPostprocessAllAssets 0.973ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.964ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.853ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.852ms
+			AssetEvents.OnPostprocessAllAssets 0.848ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.847ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.842ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.765ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.756ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.577ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 0.552ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.483ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.345ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.315ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.265ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.248ms
+			AssetChangeDetector.OnPostprocessAllAssets 0.231ms
+	PostAssetChangesProfiler: 20.995ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.392ms
+	UnloadStreamsBegin: 2.314ms
+	PersistCurrentRevisions: 0.545ms
+	Untracked: 20.154ms
+
+[Worker0] Imported GUID: 391c49d2bb7c1f44eafb723999445d74 - Path: Assets/Scenes/Main - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a10212dc2c2529cbcf28ec2005d3b6c4') in 0.0263644 seconds
+[Worker1] Imported GUID: 77605f9d30de9204981610f47fd9ffb4 - Path: Assets/Scenes/Main/NavMesh-NavMesh Surface.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7bf17ec6442688cf645152dbbff5f61a') in 0.1284587 seconds
+Asset Pipeline Refresh (id=9ce407a175dfeda4bb33e22340509d98): Total: 0.019 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Refreshing native plugins compatible for Editor in 5.31 ms, found 5 plugins.
+Asset Pipeline Refresh (id=236883cad2340c54188466e3e4c742e2): Total: 0.234 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 77605f9d30de9204981610f47fd9ffb4 - Path: Assets/Scenes/Main/NavMesh-NavMesh Surface.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 77605f9d30de9204981610f47fd9ffb4' -> (Import Result ID: '274ca04b8e7238bdf17d587fc36527d0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=160f02326bc776be5db39ef2d97aeea9 DependenciesID=75e353f9c2d5dccff6825924a2f40f42 StaticDependenciesID=193194736831bf432dec33c502999ac2 
+Refreshing native plugins compatible for Editor in 4.19 ms, found 5 plugins.
+Asset Pipeline Refresh (id=0245ddc3f32f2f54b93fd3d152a85563): Total: 0.172 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 77605f9d30de9204981610f47fd9ffb4 - Path: Assets/Scenes/Main/NavMesh-NavMesh Surface.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0abed104d42ee2b6b0520f28bfdf7aaa') in 0.030152 seconds
+Refreshing native plugins compatible for Editor in 5.54 ms, found 5 plugins.
+Asset Pipeline Refresh (id=6d3cb34d492c6e140aa250d691b3906a): Total: 0.188 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 7.10 ms, found 5 plugins.
+Asset Pipeline Refresh (id=c110cc36f1a8d364f8a375288476f1f5): Total: 0.212 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 4.23 ms, found 5 plugins.
+Asset Pipeline Refresh (id=f63a060ec5a85594082c10d20192f70f): Total: 0.157 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 4.31 ms, found 5 plugins.
+Asset Pipeline Refresh (id=0722236459484d9439bdcfe249d9c107): Total: 0.163 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=aef620adc12c286459fca73b1e7d47ec): Total: 0.015 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=c31bae859f1e93a4ebfa946dceaf372e): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=42efdc2e427e6d94cb04b7b04cdcd5ca): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 4.20 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=80e45334bd329434c8b2e56ddeb2506e): Total: 1.157 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=284 ms
+		Asset DB Callback time: managed=864 ms, native=6 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=2204, non-scripts=5376
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.167ms
+	Scan: 12.917ms
+	Collect global state as custom dependencies: 0.521ms
+	OnSourceAssetsModified: 0.103ms
+	CategorizeScriptCompilationAssets: 0.487ms
+	ProcessAssetsWithTransientArtifactChanges: 1.456ms
+	CategorizeAssets: 30.762ms
+	CompileScripts: 1.243ms
+	ImportOutOfDateAssets: 92.463ms (14.677ms without children)
+		ReloadNativeAssets: 0.056ms
+		UnloadImportedAssets: 0.242ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.492ms
+		ImportSchedulerStart: 75.993ms
+	PostProcessAllAssets: 856.227ms
+		XRBuildSystem.XRAssetImported 1.486ms
+		PostProcessCallbackCreateDeferredMaterials 0.244ms
+		VersionControlSettings.HiddenFilePostprocess 0.058ms
+		MonoPostProcessAllAssets: 854.121ms
+			SyncVS.PostprocessSyncProject 851.896ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.309ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.278ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.254ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.250ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.107ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.105ms
+			AssetChangedListener.OnPostprocessAllAssets 0.086ms
+	PostAssetChangesProfiler: 14.591ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.527ms
+	UnloadStreamsBegin: 1.977ms
+	PersistCurrentRevisions: 0.329ms
+	Untracked: 142.680ms
+
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 2.8844ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Keven/My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 7.3526ms
+ExitCode: 4 Duration: 0s927ms
+[1210/1583  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.77 seconds), 1 items updated, 1583 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Keven/My project
+[Worker0] Imported GUID: ce76cc9103ab3f94c9e412ab987b7914 - Path: Assets/Scripts/EnemyAI.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '514147d152c20abded2547687dee717c') in 0.0276835 seconds
+[Worker0] Imported GUID: ce76cc9103ab3f94c9e412ab987b7914 - Path: Assets/Scripts/EnemyAI.cs - Importer: PreviewImporter -> (ImportResultId: '7e8768593579ca247021243164ec217d') in 0.0282494 seconds
+ExitCode: 0 Duration: 5s42ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Keven/My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1.1995ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Scripting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Managed\UnityEngine\Unity.Scripting.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@2f3d916873ea\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 2225.5320ms
+ExitCode: 0 Duration: 8s886ms
+Finished compiling graph: 1587 nodes, 33511 flattened edges (27393 ToBuild, 262 ToUse), maximum node priority 1765
+[ 770/1583  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[1209/1583  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1579/1583  5s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1580/1583  2s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1581/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1582/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (8.85 seconds), 6 items updated, 1583 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[INFO ] [relay] log Domain reload signal received from client editor-13888-cr9jmm
+Total cache size 267490908
+Total cache size after purge 267490908, took 00:00:01.6218335
+[INFO ] [relay] log Client disconnected - blocking and caching for recovery
+[WARN ] [relay] connection.lost clientId=null
+[WARN ] [relay] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[INFO ] [relay] log Auto-shutdown timer started due to client disconnection
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 5.07 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 5.17 ms, found 5 plugins.
+Start HTTP server: port:7801
+Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automated
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs:88)
+Unity.Pipeline.BasePipelineServer:Start (int) (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Runtime/Common/BasePipelineServer.cs:237)
+Unity.Pipeline.Editor.PipelineServerStartup:StartServer () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:164)
+Unity.Pipeline.Editor.PipelineServerStartup:.cctor () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:44)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs Line: 88)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.558 seconds
+Domain Reload Profiling: 9387ms
+	BeginReloadAssembly (3149ms)
+		DisableScriptedObjects (404ms)
+		CreateAndSetChildDomain (1861ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (379ms)
+	LoadAllAssembliesAndSetupDomain (1264ms)
+		LoadAssemblies (650ms)
+		AnalyzeDomain (676ms)
+			TypeCache.Refresh (36ms)
+			BuildScriptInfoCaches (617ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4559ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (480ms)
+			ProcessInitializeOnLoadAttributes (1360ms)
+			ProcessInitializeOnLoadMethodAttributes (602ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (1085ms)
+Refreshing native plugins compatible for Editor in 5.49 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=302abd39f6cc918408bf6ff72278a655): Total: 21.824 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4941 ms
+		Asset DB Callback time: managed=423 ms, native=91 ms
+		Scripting: domain reloads=1, domain reload time=5105 ms, compile time=11261 ms, other=0 ms
+		Project Asset Count: scripts=2204, non-scripts=5376
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.400ms
+	ApplyChangesToAssetFolders: 0.694ms
+	Scan: 33.736ms
+	Collect global state as custom dependencies: 4.602ms
+	ProcessAssetsWithTransientArtifactChanges: 10.658ms
+	CategorizeAssets: 142.212ms
+	CompileScripts: 11261.493ms
+	ImportOutOfDateAssets: 4676.372ms (4587.991ms without children)
+		CollectScriptTypesHashes: 7.811ms
+		ReloadNativeAssets: 1.668ms
+		UnloadImportedAssets: 2.156ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.202ms
+		ImportSchedulerStart: 82.297ms
+	PostProcessAllAssets: 426.624ms
+		XRBuildSystem.XRAssetImported 1.558ms
+		PostProcessCallbackCreateDeferredMaterials 0.481ms
+		MonoPostProcessAllAssets: 423.988ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 39.584ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.497ms
+			SyncVS.PostprocessSyncProject 16.517ms
+			AssetChangedListener.OnPostprocessAllAssets 15.236ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.139ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.656ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.595ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 3.543ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.444ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.574ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.356ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.923ms
+			AssetChangeDetector.OnPostprocessAllAssets 1.420ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.224ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.189ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.040ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.022ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.690ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.685ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.684ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.566ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.550ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.542ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.524ms
+			PostProcessor.OnPostprocessAllAssets 0.502ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.461ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.421ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.391ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.389ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.389ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.356ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.338ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.296ms
+			AssetEvents.OnPostprocessAllAssets 0.268ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.267ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.235ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.191ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.186ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.149ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.141ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.097ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.095ms
+	PostAssetChangesProfiler: 88.246ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.128ms
+	PersistCurrentRevisions: 0.318ms
+	GenerateScriptTypeHashes: 9.476ms
+	GenerateScriptTypeSerializationHashes: 14.732ms
+	Untracked: 5162.886ms
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[INFO ] [relay] log Unity client connected with ID: editor-13888-py87i5 (relay 1.0.12-build.97)
+[INFO ] [relay] connection.established clientId=editor-13888-py87i5 port=9001
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+UPID Received 'f2c00382-0b97-489b-8784-dfb113b40c20'.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Worker1] Imported GUID: ce76cc9103ab3f94c9e412ab987b7914 - Path: Assets/Scripts/EnemyAI.cs - Importer: PreviewImporter -> (ImportResultId: '2fb18caff06be51244bd38aa281ed47c') in 0.0243331 seconds
+
+[main 2026-09-05T04:00:18.852Z] StorageMainService: creating application shared storage
+[main 2026-09-05T04:00:19.115Z] [shared storage] Creating shared storage database at 'c:\Users\Keven\.vscode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+[main 2026-09-05T04:00:19.118Z] [shared storage] Initializing fallback application storage (path: c:\Users\Keven\AppData\Roaming\Code\User\globalStorage\state.vscdb)
+[main 2026-09-05T04:00:19.169Z] [shared storage] Fallback application storage initialized with 119 items
+[main 2026-09-05T04:00:19.830Z] update#setState idle
+[main 2026-09-05T04:00:19.913Z] AgentHostProcessManager: agent host started
+[main 2026-09-05T04:00:21.256Z] [AgentHost:stderr] (node:12292) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+
+Unknown channel: agentHostClientByokLm
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+(node:15604) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Unknown channel: agentHostClientProxy
+Asset Pipeline Refresh (id=dc40d7ef0aa3b114abebf9f0290f1882): Total: 0.109 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=c51a378f42208c547bfc02d5643ef37e): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Asset Pipeline Refresh (id=66dec4721ee6df848a0c045821fadcfd): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[main 2026-09-05T04:00:49.902Z] update#setState checking for updates
+[main 2026-09-05T04:00:50.139Z] update#setState idle
+Asset Pipeline Refresh (id=4a20ebd86d751cd4ab15f86697350e99): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=870d17b9b44dc5c458487d554b86859f): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=6e6805d05f8fcbb45aa0d5cdd5fc918d): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=6de8829753ec26645b9021731dd451b5): Total: 0.010 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=e96e68a362ff59042a896c79a27c2f0a): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.2738ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Keven/My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 2.1792ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 42.3953ms
+ExitCode: 0 Duration: 1s425ms
+[1209/1583  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1579/1583  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1580/1583  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1581/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1582/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (1.19 seconds), 5 items updated, 1583 evaluated
+Reloading assemblies after forced synchronous recompile.
+Total cache size 267490908
+Total cache size after purge 267490908, took 00:00:01.5099217
+Begin MonoManager ReloadAssembly
+[INFO ] [relay] log Domain reload signal received from client editor-13888-py87i5
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 12.82 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 5.86 ms, found 5 plugins.
+Start HTTP server: port:7802
+Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automated
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs:88)
+Unity.Pipeline.BasePipelineServer:Start (int) (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Runtime/Common/BasePipelineServer.cs:237)
+Unity.Pipeline.Editor.PipelineServerStartup:StartServer () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:164)
+Unity.Pipeline.Editor.PipelineServerStartup:.cctor () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:44)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs Line: 88)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.252 seconds
+Domain Reload Profiling: 23215ms
+	BeginReloadAssembly (11998ms)
+		ExecutionOrderSort (5ms)
+		DisableScriptedObjects (1044ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (7086ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (736ms)
+	LoadAllAssembliesAndSetupDomain (2090ms)
+		LoadAssemblies (2882ms)
+		AnalyzeDomain (1133ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (924ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (8254ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (1909ms)
+			ProcessInitializeOnLoadAttributes (1953ms)
+			ProcessInitializeOnLoadMethodAttributes (907ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (1931ms)
+Refreshing native plugins compatible for Editor in 9.01 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=3fa513140e5c3c348a4462ddb25a722c): Total: 29.775 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=9512 ms
+		Asset DB Callback time: managed=915 ms, native=228 ms
+		Scripting: domain reloads=1, domain reload time=15713 ms, compile time=3405 ms, other=0 ms
+		Project Asset Count: scripts=2204, non-scripts=5376
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 6.249ms
+	ApplyChangesToAssetFolders: 2.537ms
+	Scan: 100.339ms
+	Collect global state as custom dependencies: 9.477ms
+	OnSourceAssetsModified: 3.430ms
+	CategorizeScriptCompilationAssets: 0.835ms
+	ProcessAssetsWithTransientArtifactChanges: 25.295ms
+	CategorizeAssets: 237.585ms
+	CompileScripts: 3404.887ms
+	ImportOutOfDateAssets: 8532.274ms (8319.790ms without children)
+		CollectScriptTypesHashes: 12.468ms
+		ReloadNativeAssets: 2.586ms
+		UnloadImportedAssets: 1.446ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.087ms
+		ImportSchedulerStart: 205.377ms
+	PostProcessAllAssets: 923.660ms
+		XRBuildSystem.XRAssetImported 1.839ms
+		PostProcessCallbackCreateDeferredMaterials 1.345ms
+		VCAutoAddAssetPostprocess 0.467ms
+		Canvas.OnAllAssetImport 0.372ms
+		WindowTitlePostprocess 0.322ms
+		ShaderAssetModifiedCallback 0.262ms
+		MonoPostProcessAllAssets: 913.590ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 127.978ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 55.953ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 38.637ms
+			SyncVS.PostprocessSyncProject 22.451ms
+			AssetChangedListener.OnPostprocessAllAssets 21.472ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.763ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 7.169ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 6.797ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.933ms
+			AssetChangeDetector.OnPostprocessAllAssets 4.626ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.354ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.530ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.250ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.140ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.827ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.580ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.570ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.553ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.280ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.269ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.249ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.055ms
+			ModelAssetProcessor.OnPostprocessAllAssets 1.010ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.996ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.710ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.649ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.585ms
+			PostProcessor.OnPostprocessAllAssets 0.571ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.531ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.516ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.476ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.446ms
+			AssetEvents.OnPostprocessAllAssets 0.441ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.396ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.378ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.313ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.260ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.260ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.258ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.215ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.196ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.187ms
+	PostAssetChangesProfiler: 216.104ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.400ms
+	PersistCurrentRevisions: 0.352ms
+	GenerateScriptTypeHashes: 6.800ms
+	GenerateScriptTypeSerializationHashes: 10.086ms
+	Untracked: 16288.654ms
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[RelayService] Bus validation failed: TaskCanceledException: A task was canceled.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Relay.Editor.RelayService/<TryConnectAsync>d__104:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs:770)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction (System.Action,bool,System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:SetResult (bool)
+Unity.Relay.Editor.RelayService/<ValidateRelayViaBusAsync>d__115:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs:1094)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction (System.Action,bool,System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:CancellationCleanupLogic ()
+System.Threading.Tasks.Task:TrySetCanceled (System.Threading.CancellationToken,object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Relay.InfoResponse>:SetException (System.Exception)
+Unity.Relay.RelayBus/<CallAsync>d__19`2<Unity.Relay.InfoRequest, Unity.Relay.InfoResponse>:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/Bus/RelayBus.cs:173)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction (System.Action,bool,System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:CancellationCleanupLogic ()
+System.Threading.Tasks.Task:TrySetCanceled (System.Threading.CancellationToken,object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Relay.InfoResponse>:SetException (System.Exception)
+Unity.Relay.RelayBus/<CallCoreAsync>d__21`2<Unity.Relay.InfoRequest, Unity.Relay.InfoResponse>:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/Bus/RelayBus.cs:222)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs Line: 770)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+UPID Received 'f2c00382-0b97-489b-8784-dfb113b40c20'.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 12.92 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7802
+Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automated
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs:88)
+Unity.Pipeline.BasePipelineServer:Start (int) (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Runtime/Common/BasePipelineServer.cs:237)
+Unity.Pipeline.Editor.PipelineServerStartup:StartServer () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:164)
+Unity.Pipeline.Editor.PipelineServerStartup:.cctor () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:44)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs Line: 88)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.046 seconds
+Domain Reload Profiling: 13737ms
+	BeginReloadAssembly (7461ms)
+		DisableScriptedObjects (277ms)
+		CreateAndSetChildDomain (6332ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (417ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (743ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (39ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (5048ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (1628ms)
+			ProcessInitializeOnLoadMethodAttributes (675ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (1214ms)
+
+Asset Pipeline Refresh (id=c526818d3e2a50847a3412011928b6ff): Total: 14.631 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5478 ms
+		Asset DB Callback time: managed=80 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=9068 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=2204, non-scripts=5376
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 6.161ms
+	ApplyChangesToAssetFolders: 0.567ms
+	Collect global state as custom dependencies: 6.685ms
+	ProcessAssetsWithTransientArtifactChanges: 0.783ms
+	CategorizeAssets: 152.640ms
+	CompileScripts: 1.931ms
+	ImportOutOfDateAssets: 5182.481ms (5090.636ms without children)
+		CollectScriptTypesHashes: 3.181ms
+		ReloadNativeAssets: 2.394ms
+		UnloadImportedAssets: 0.304ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.268ms
+		ImportSchedulerStart: 86.800ms
+	PostProcessAllAssets: 80.544ms
+		MonoPostProcessAllAssets: 80.529ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 127.978ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 55.953ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 27.887ms
+			AssetChangedListener.OnPostprocessAllAssets 21.472ms
+			SyncVS.PostprocessSyncProject 16.309ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.763ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 7.169ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.765ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.354ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.771ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.071ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.250ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.580ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.570ms
+			AssetChangeDetector.OnPostprocessAllAssets 1.555ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.553ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.367ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.280ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.269ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.249ms
+			ModelAssetProcessor.OnPostprocessAllAssets 1.010ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.996ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.755ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.710ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.649ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.585ms
+			PostProcessor.OnPostprocessAllAssets 0.571ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.531ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.516ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.508ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.494ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.487ms
+			AssetEvents.OnPostprocessAllAssets 0.441ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.396ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.378ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.314ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.260ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.258ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.229ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.215ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.196ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.187ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.750ms
+	UnloadStreamsBegin: 3.881ms
+	PersistCurrentRevisions: 0.402ms
+	GenerateScriptTypeHashes: 5.459ms
+	GenerateScriptTypeSerializationHashes: 8.883ms
+	Untracked: 9179.872ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            11.578 ms
+	Integration:            2373.675 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   2385.280 ms
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[RelayService] Bus validation failed: TaskCanceledException: A task was canceled.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Relay.Editor.RelayService/<TryConnectAsync>d__104:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs:770)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction (System.Action,bool,System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:SetResult (bool)
+Unity.Relay.Editor.RelayService/<ValidateRelayViaBusAsync>d__115:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs:1094)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction (System.Action,bool,System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:CancellationCleanupLogic ()
+System.Threading.Tasks.Task:TrySetCanceled (System.Threading.CancellationToken,object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Relay.InfoResponse>:SetException (System.Exception)
+Unity.Relay.RelayBus/<CallAsync>d__19`2<Unity.Relay.InfoRequest, Unity.Relay.InfoResponse>:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/Bus/RelayBus.cs:173)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction (System.Action,bool,System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:CancellationCleanupLogic ()
+System.Threading.Tasks.Task:TrySetCanceled (System.Threading.CancellationToken,object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Unity.Relay.InfoResponse>:SetException (System.Exception)
+Unity.Relay.RelayBus/<CallCoreAsync>d__21`2<Unity.Relay.InfoRequest, Unity.Relay.InfoResponse>:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/Bus/RelayBus.cs:222)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs Line: 770)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Chave door01 coletada!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Key:Interact (UnityEngine.GameObject) (at Assets/Scripts/Key.cs:13)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Key.cs Line: 13)
+
+Interagiu com: Key (Key)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Porta interagida!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Door:Interact (UnityEngine.GameObject) (at Assets/Scripts/Door.cs:24)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:78)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/Door.cs Line: 24)
+
+Interagiu com: DoorRoot (Door)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PlayerInteraction:TryInteract () (at Assets/Scripts/PlayerInteraction.cs:79)
+PlayerInteraction:Update () (at Assets/Scripts/PlayerInteraction.cs:40)
+
+(Filename: Assets/Scripts/PlayerInteraction.cs Line: 79)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.770 ms
+	Integration:            624.336 ms
+	Integration of assets:  0.013 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   629.122 ms
+Unloading 158 unused Assets / (26.7 MB). Loaded Objects now: 13004.
+Memory consumption went from 0.84 GB to 0.81 GB.
+Total: 262.146900 ms (FindLiveObjects: 1.142400 ms CreateObjectMapping: 0.952400 ms MarkObjects: 68.357100 ms  DeleteObjects: 191.685600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 4.361ms
+Scanning for USB devices : 1.775ms
+Asset Pipeline Refresh (id=5c3948d117421d3479b9458d7b8ca5cc): Total: 0.051 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[INFO ] [relay] log Client disconnected - blocking and caching for recovery
+[WARN ] [relay] connection.lost clientId=null
+[WARN ] [relay] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[INFO ] [relay] log Auto-shutdown timer started due to client disconnection
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[INFO ] [relay] log Auto-shutdown timer fired after 180s inactivity, shutting down: Dedicated client disconnected
+[INFO ] [relay] log Shutdown: Initiating graceful shutdown: Dedicated client disconnected
+connection.state_change
+oldState=Running newState=Failed error=Process exited unexpectedly. code=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Unity.AI.Tracing.ConsoleSink:LogToConsole (string,string,System.Exception) (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Tracing/TraceSinks.cs:307)
+Unity.AI.Tracing.ConsoleSink:Write (Unity.AI.Tracing.TraceEvent) (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Tracing/TraceSinks.cs:277)
+Unity.AI.Tracing.TraceWriter:WriteEventInternal (string,string,Unity.AI.Tracing.TraceEventOptions,string,System.Nullable`1<int>) (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Tracing/TraceWriter.cs:373)
+Unity.AI.Tracing.TraceWriter:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Tracing/TraceWriter.cs:297)
+Unity.AI.Tracing.Trace:Event (string,Unity.AI.Tracing.TraceEventOptions) (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Tracing/Trace.cs:79)
+Unity.Relay.Editor.RelayService:TransitionTo (Unity.Relay.Editor.RelayStatus,string) (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs:1251)
+Unity.Relay.Editor.RelayService/<>c__DisplayClass119_0:<SetupProcessMonitoring>b__1 () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Editor/Assistant/Relay/RelayService.cs:1185)
+Unity.AI.Toolkit.EditorTask/<>c__DisplayClass21_0:<DelayCall>b__0 () (at ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Toolkit.Async/EditorTask.cs:375)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@c0127625258e/Modules/Unity.AI.Tracing/TraceSinks.cs Line: 307)
+
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 1.0745ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Keven/My project
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 6.2022ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 54.5290ms
+ExitCode: 0 Duration: 1s934ms
+[1209/1583  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1579/1583  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1580/1583  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 145 defines and 370 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1581/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1582/1583  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (1.69 seconds), 5 items updated, 1583 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 267490908
+Total cache size after purge 267490908, took 00:00:03.0524780
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 16.33 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 7.12 ms, found 5 plugins.
+Start HTTP server: port:7800
+Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automated
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs:88)
+Unity.Pipeline.BasePipelineServer:Start (int) (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Runtime/Common/BasePipelineServer.cs:237)
+Unity.Pipeline.Editor.PipelineServerStartup:StartServer () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:164)
+Unity.Pipeline.Editor.PipelineServerStartup:.cctor () (at ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineStartup.cs:44)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: ./Library/PackageCache/com.unity.pipeline@24975d51528a/Editor/EditorPipelineServer.cs Line: 88)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.035 seconds
+Domain Reload Profiling: 14342ms
+	BeginReloadAssembly (6337ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (1018ms)
+		CreateAndSetChildDomain (2969ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (402ms)
+	LoadAllAssembliesAndSetupDomain (1526ms)
+		LoadAssemblies (676ms)
+		AnalyzeDomain (902ms)
+			TypeCache.Refresh (80ms)
+			BuildScriptInfoCaches (761ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (6036ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (1123ms)
+			ProcessInitializeOnLoadAttributes (1582ms)
+			ProcessInitializeOnLoadMethodAttributes (690ms)
+			AfterProcessingInitializeOnLoad (16ms)
+		AwakeInstancesAfterBackupRestoration (1483ms)
+Refreshing native plugins compatible for Editor in 5.77 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=513c1792692d88c46910732f53698968): Total: 20.577 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=6922 ms
+		Asset DB Callback time: managed=531 ms, native=21 ms
+		Scripting: domain reloads=1, domain reload time=8957 ms, compile time=4144 ms, other=0 ms
+		Project Asset Count: scripts=2204, non-scripts=5376
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 8.603ms
+	ApplyChangesToAssetFolders: 0.588ms
+	Scan: 62.476ms
+	Collect global state as custom dependencies: 13.272ms
+	OnSourceAssetsModified: 18.130ms
+	CategorizeScriptCompilationAssets: 0.361ms
+	ProcessAssetsWithTransientArtifactChanges: 22.156ms
+	CategorizeAssets: 178.993ms
+	CompileScripts: 4144.058ms
+	ImportOutOfDateAssets: 6201.921ms (6096.711ms without children)
+		CollectScriptTypesHashes: 19.196ms
+		ReloadNativeAssets: 1.740ms
+		UnloadImportedAssets: 0.459ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.743ms
+		ImportSchedulerStart: 100.178ms
+	PostProcessAllAssets: 522.369ms
+		XRBuildSystem.XRAssetImported 1.960ms
+		PostProcessCallbackCreateDeferredMaterials 0.887ms
+		ShaderAssetModifiedCallback 0.265ms
+		WindowTitlePostprocess 0.223ms
+		VCAutoAddAssetPostprocess 0.214ms
+		MonoPostProcessAllAssets: 514.984ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 49.524ms
+			AssetChangedListener.OnPostprocessAllAssets 31.813ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 27.991ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.342ms
+			SyncVS.PostprocessSyncProject 15.214ms
+			MaterialPostprocessor.OnPostprocessAllAssets 9.388ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.563ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 4.946ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 3.898ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.711ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.936ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.868ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.050ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.783ms
+			AssetChangeDetector.OnPostprocessAllAssets 1.549ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.349ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.327ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.093ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.904ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.822ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.656ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.631ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.611ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.552ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.543ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.490ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.483ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.432ms
+			AssetEvents.OnPostprocessAllAssets 0.405ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.400ms
+			PostProcessor.OnPostprocessAllAssets 0.374ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.343ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.293ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.280ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.274ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.268ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.232ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.193ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.184ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.152ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.145ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.113ms
+	PostAssetChangesProfiler: 9.493ms
+	GatherAllCurrentPrimaryImportResultRevisions: 6.507ms
+	PersistCurrentRevisions: 0.319ms
+	GenerateScriptTypeHashes: 4.823ms
+	GenerateScriptTypeSerializationHashes: 7.944ms
+	Untracked: 9362.518ms
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[INFO ] [relay] relay.startup port=9001 mcpClientPort=9002 editorPid=13888
+[INFO ] [relay] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.97)
+[INFO ] [relay] log Starting relay server...
+[INFO ] [relay] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","13888","--shutdown-delay","180","--log-dir","C:\\Users\\Keven\\My project\\Logs"]
+[INFO ] [relay] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"13888","shutdownDelaySeconds":180}
+[INFO ] [relay] log Initializing relay components...
+[INFO ] [relay] log Creating RelayEditor...
+[INFO ] [relay] log WebSocket server started
+[INFO ] [relay] log Relay server initialization completed
+[INFO ] [relay] log MCP Client initialized at port: 9002
+[WARN ] [relay] log [shell-env] Shell environment did not contain a PATH variable
+[INFO ] [relay] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[INFO ] [relay] log Unity client connected with ID: editor-13888-f339db (relay 1.0.12-build.97)
+[INFO ] [relay] connection.established clientId=editor-13888-f339db port=9001
+UPID Received 'f2c00382-0b97-489b-8784-dfb113b40c20'.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
